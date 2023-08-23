@@ -1,0 +1,56 @@
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'fArhAn',
+  timestamp: '2023-08-23T18:21:14.465Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'fArhAn',
+  timestamp: '2023-08-23T18:21:14.484Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'fArhAn',
+  timestamp: '2023-08-23T18:22:50.115Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'fArhAn',
+  timestamp: '2023-08-23T18:22:50.138Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2023-08-23T18:25:04.973Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2023-08-23T18:25:04.983Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2023-08-23T18:29:59.070Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2023-08-23T18:29:59.087Z'
+}
