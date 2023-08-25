@@ -1,0 +1,97 @@
+{
+  service: 'user-service',
+  statusCode: 400,
+  level: 'error',
+  message: '🐱‍🏍 globalErrorHandler ~~ Custom error',
+  stack: 'Error: Custom error\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\src\\app.ts:48:9\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at urlencodedParser (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'CoU',
+  timestamp: '2023-08-25T03:01:40.240Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'Role is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '🐱‍🏍 globalErrorHandler ~~ [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "Role is required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "Role is required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\zod\\lib\\types.js:165:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'CoU',
+  timestamp: '2023-08-25T03:32:54.048Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    role: ValidatorError: Path `role` is required.
+        at validate (C:\Users\Admin\Desktop\CoU\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\Admin\Desktop\CoU\university-management-auth-service\node_modules\mongoose\lib\schematype.js:1349:7)
+        at C:\Users\Admin\Desktop\CoU\university-management-auth-service\node_modules\mongoose\lib\document.js:2947:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `role` is required.',
+        type: 'required',
+        path: 'role',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'role',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: '🐱‍🏍 globalErrorHandler ~~ User validation failed: role: Path `role` is required.',
+  stack: 'ValidationError: User validation failed: role: Path `role` is required.\n' +
+    '    at model.Document.invalidate (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'CoU',
+  timestamp: '2023-08-25T03:34:55.347Z'
+}
