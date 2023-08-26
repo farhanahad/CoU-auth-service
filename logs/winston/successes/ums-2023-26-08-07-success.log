@@ -1,0 +1,14 @@
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2023-08-26T01:30:45.667Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2023-08-26T01:30:45.689Z'
+}
