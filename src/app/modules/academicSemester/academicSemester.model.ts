@@ -6,7 +6,10 @@ import {
   academicSemesterMonths,
   academicSemesterTitles,
 } from './academicSemester.constant';
-import { IAcademicSemester } from './academicSemester.interface';
+import {
+  AcademicSemesterModel,
+  IAcademicSemester,
+} from './academicSemester.interface';
 
 const academicSemesterSchema = new Schema<IAcademicSemester>(
   {
@@ -16,7 +19,7 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
       enum: academicSemesterTitles,
     },
     year: {
-      type: Number,
+      type: String,
       required: true,
     },
     code: {
@@ -37,8 +40,13 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
   },
   {
     timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
   },
 );
+
+// handling same year & same semester issue
 
 academicSemesterSchema.pre('save', async function (next) {
   const isExist = await AcademicSemester.findOne({
@@ -48,13 +56,13 @@ academicSemesterSchema.pre('save', async function (next) {
   if (isExist) {
     throw new ApiError(
       httpStatus.CONFLICT,
-      'Academic semester is already exist !',
+      'Academic semester is already exist!',
     );
   }
   next();
 });
 
-export const AcademicSemester = model<IAcademicSemester>(
+export const AcademicSemester = model<IAcademicSemester, AcademicSemesterModel>(
   'AcademicSemester',
   academicSemesterSchema,
 );
