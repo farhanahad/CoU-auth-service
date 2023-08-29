@@ -1,0 +1,46 @@
+{
+  service: 'user-service',
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n' +
+    '    "password": "123456",     \r\n' +
+    '\r\n' +
+    '    "faculty": {\r\n' +
+    '        "name": {\r\n' +
+    '            "firstName": "Rakibul",\r\n' +
+    '            "lastName": "Hasan",\r\n' +
+    '            "middleName": "Riyad"\r\n' +
+    '        },\r\n' +
+    '        "dateOfBirth": "28-06-2000",\r\n' +
+    '        "gender": "male",\r\n' +
+    '        "bloodGroup": "B+",\r\n' +
+    '        "email": "user@gmail.com",\r\n' +
+    '        "contactNo": "01600000000",\r\n' +
+    '        "emergencyContactNo": "01600000000",\r\n' +
+    '        "presentAddress": "CTG",\r\n' +
+    '        "permanentAddress": "CTG",\r\n' +
+    '        "academicDepartment": "64ecad27189182c0f60179f0",\r\n' +
+    '        "designation":"Lecturer",\r\n' +
+    '        "academicFaculty": "64ec351fab6aa6061f2d4503"\r\n' +
+    '       \r\n' +
+    '      \r\n' +
+    '}\r\n' +
+    '\r\n',
+  type: 'entity.parse.failed',
+  level: 'error',
+  message: "🐱‍🏍 globalErrorHandler ~~ Expected ',' or '}' after property value in JSON at position 646",
+  stack: "SyntaxError: Expected ',' or '}' after property value in JSON at position 646\n" +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n' +
+    '    at invokeCallback (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:512:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1359:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'CoU',
+  timestamp: '2023-08-29T03:42:41.739Z'
+}
