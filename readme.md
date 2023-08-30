@@ -1,6 +1,29 @@
+<h2>Auth Login</h2>
+
+<h4>Post</h4>
+Post: http://localhost:5000/api/v1/auth/login
+Input:
+{
+    "id":"A-00001",
+    "password":"123456"
+}
+
+Got Access Token
+
+<h3>If access token time finished,create another refresh token</h3>
+Post: http://localhost:5000/api/v1/auth/refresh-token
+
+Input:
+{
+"id":"A-00001",
+"password":"123456"
+}
+
+Then authorization the token
+
 <h2>Academic Semester Related API</h2>
 
-1. Create
+<h4>1. Create</h4>
    Post: http://localhost:5000/api/v1/academic-semesters/create-semester
 
 Input:
@@ -12,11 +35,11 @@ Input:
 "endMonth":"June"
 }
 
-2. Read:
+<h4>2. Read:</h4>
 
 Get: http://localhost:5000/api/v1/academic-semesters
 
-3. Searching(Partial match),Filtering(Exact Match)
+<h4>3. Searching(Partial match),Filtering(Exact Match)</h4>
 
 Filtering:
 i. http://localhost:5000/api/v1/academic-semesters/?sortBy=code&sortOrder=desc
@@ -31,14 +54,14 @@ i. Show fall session - http://localhost:5000/api/v1/academic-semesters/?searchTe
 ii.Show summer session - http://localhost:5000/api/v1/academic-semesters/?searchTerm=sum
 iii. Matching code - http://localhost:5000/api/v1/academic-semesters/?searchTerm=02
 
-4. Single id find:
+<h4>4. Single id find:</h4>
    Get: http://localhost:5000/api/v1/academic-semesters/64e95e5a707b1c710b35d603
 
-5. If id is not valid,show cast error
+<h4>5. If id is not valid,show cast error</h4>
 
 Get: http://localhost:5000/api/v1/academic-semesters/64e95e5a707b1c710b35d60
 
-6. Not found route
+<h4>6. Not found route</h4>
    Get: http://localhost:5000/api/v1/xyz
    output:
    {
@@ -52,7 +75,7 @@ Get: http://localhost:5000/api/v1/academic-semesters/64e95e5a707b1c710b35d60
    ]
    }
 
-7. Update:
+<h4>7. Update:</h4>
    patch means single update and multiple update
    Patch: http://localhost:5000/api/v1/academic-semesters/64e95e5a707b1c710b35d603
    Input:
@@ -62,13 +85,13 @@ Get: http://localhost:5000/api/v1/academic-semesters/64e95e5a707b1c710b35d60
    "code":"02"
    }
 
-8. Delete:
+<h4>8. Delete:</h4>
 
 delete: http://localhost:5000/api/v1/academic-semesters/64e9563a94a16bfd5d2fde32
 
 <h2>Faculty Related API</h2>
 
-1. Create
+<h4>1. Create</h4>
    Post : http://localhost:5000/api/v1/academic-faculties/create-faculty
 
 Input:
@@ -76,11 +99,11 @@ Input:
 "title":"Faculty Of Business Studies"
 }
 
-2. Read
+<h4>2. Read</h4>
 
 Get: http://localhost:5000/api/v1/academic-faculties
 
-3. Update
+<h4>3. Update</h4>
 
 patch: http://localhost:5000/api/v1/academic-faculties/64ec3567ab6aa6061f2d4509
 Input:
@@ -88,12 +111,12 @@ Input:
 "title":"Faculty Of wXYZ"
 }
 
-4.Delete:
+<h4>4.Delete:</h4>
 delete: http://localhost:5000/api/v1/academic-faculties/64ec3567ab6aa6061f2d4509
 
 <h2>Department Related API's</h2>
 
-1. Create
+<h4>1. Create</h4>
 
 Post: http://localhost:5000/api/v1/academic-departments/create-department
 
@@ -102,11 +125,12 @@ Post: http://localhost:5000/api/v1/academic-departments/create-department
 "academicFaculty":"64ec351fab6aa6061f2d4503"
 }
 
-2. Get: http://localhost:5000/api/v1/academic-departments
+<h4>2. Read</h4>
+Get: http://localhost:5000/api/v1/academic-departments
 
 <h2>User Related API's</h2>
 
-1.  Create
+<h4>1.  Create</h4>
     Post: http://localhost:5000/api/v1/users/create-student
     Input:
     {
@@ -149,12 +173,13 @@ Post: http://localhost:5000/api/v1/academic-departments/create-department
 
     }
 
-2.  Read:
+<h4>2. Read</h4>
+
     Get: http://localhost:5000/api/v1/students
 
 <h2>User Faculty Related API:</h2>
 
-1. Create
+<h4>1. Create</h4>
    Post: http://localhost:5000/api/v1/users/create-faculty
    Input:
 
@@ -183,24 +208,24 @@ Post: http://localhost:5000/api/v1/academic-departments/create-department
 
 }
 
-2. Read
+<h4>2. Read</h4>
    Get: http://localhost:5000/api/v1/faculties
 
-Management Department Related API
+<h2>Management Department Related API</h2>
 
-1. Create
+<h4>1. Create</h4>
    Post: http://localhost:5000/api/v1/managementDepartments/create-department
 
 {
 "title": "Account Management"
 }
 
-2. Read
+<h4>2. Read</h4>
    Get: http://localhost:5000/api/v1/managementDepartments
 
 <h2>Admin Related API</h2>
 
-1. Create
+<h4>1. Create</h4>
    Post:http://localhost:5000/api/v1/users/create-admin
 
 Input:
@@ -229,8 +254,24 @@ Input:
 
 }
 
-2. Read:
+<h4>2. Read:</h4>
    Get: http://localhost:5000/api/v1/admins
 
-Transaction means multiple operation ke 1 ta unit hisebe chinta kora
-Rollback hocche ager obosthay firaia niya jaoa, atm booth theke tk kata
+<h2>Password Change Related API's Endpoint</h2>
+
+<h4>Firstly login user</h4>
+
+Post: http://localhost:5000/api/v1/auth/login
+Input:
+{
+"id":"280100001",
+"password":"12345678"
+}
+
+Then,
+Post: http://localhost:5000/api/v1/auth/change-password
+
+{
+"oldPassword":"123456",
+"newPassword":"12345678"
+}
