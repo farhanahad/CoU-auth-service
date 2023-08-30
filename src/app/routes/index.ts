@@ -1,5 +1,5 @@
 import express from 'express';
-import { academicDepartmentRoutes } from '../modules/academicDepartment/academicDepartment.routes';
+import { AcademicDepartmentRoutes } from '../modules/academicDepartment/academicDepartment.routes';
 import { AcademicFacultyRoutes } from '../modules/academicFaculty/academicFaculty.route';
 import { AcademicSemesterRoutes } from '../modules/academicSemester/academicSemester.route';
 import { AdminRoutes } from '../modules/admin/admin.route';
@@ -22,7 +22,7 @@ const moduleRoutes = [
   },
   {
     path: '/academic-departments',
-    route: academicDepartmentRoutes,
+    route: AcademicDepartmentRoutes,
   },
   {
     path: '/students',

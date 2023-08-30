@@ -189,6 +189,41 @@
             "date": 1693327251258,
             "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-29-08-22-error.log",
             "hash": "fb08735e89513e54816cdd9ce43f13ebe66f660d04b384de162e67486f5b2377"
+        },
+        {
+            "date": 1693338454829,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-30-08-01-error.log",
+            "hash": "fc45e245fe043f7e715e12e3e77ee84fd461f18ef7a4b919cd151d2e3e313b38"
+        },
+        {
+            "date": 1693342581549,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-30-08-02-error.log",
+            "hash": "8a177ab1dbee501ab612963c00918987c19b715f4dd10b7c64b14295f08afb9a"
+        },
+        {
+            "date": 1693365053683,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-30-08-09-error.log",
+            "hash": "6c9ee03e83d183a920e45fa96ab64fb1f6e78e285f1ce13c0952a8f7ce270b60"
+        },
+        {
+            "date": 1693369544944,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-30-08-10-error.log",
+            "hash": "cfe21934f63eab93889aba1644760730ab9041cbe7569309658c544ee1071922"
+        },
+        {
+            "date": 1693372609733,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-30-08-11-error.log",
+            "hash": "2a1889f0e89742cd3cb8c5a540b3ecbc7a08bf2abd811eb8787df3190e1895c2"
+        },
+        {
+            "date": 1693384585602,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-30-08-14-error.log",
+            "hash": "2119cafce3ef7a18a05491872aee628fa5f49471ffa0553ce801bd690bc236f4"
+        },
+        {
+            "date": 1693387341862,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\logs\\winston\\errors\\ums-2023-30-08-15-error.log",
+            "hash": "d5b6b9828b3877de944f8f03d2f3ee7c5c0245cbc35d641933455b9431613924"
         }
     ],
     "hashType": "sha256"
