@@ -6,8 +6,8 @@ import {
 
 export const academicSemesterTitles: IAcademicSemesterTitles[] = [
   'Autumn',
-  'Fall',
   'Summer',
+  'Fall',
 ];
 
 export const academicSemesterCodes: IAcademicSemesterCodes[] = [
@@ -15,7 +15,8 @@ export const academicSemesterCodes: IAcademicSemesterCodes[] = [
   '02',
   '03',
 ];
-export const academicSemesterMonths: IAcademicSemesterMonths[] = [
+
+export const acdemicSemesterMonths: IAcademicSemesterMonths[] = [
   'January',
   'February',
   'March',

@@ -138,7 +138,6 @@ const changePassword = async (
   // updating using save()
   isUserExist.save();
 };
-
 export const AuthService = {
   loginUser,
   refreshToken,

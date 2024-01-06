@@ -1,0 +1,38 @@
+{
+  service: 'user-service',
+  statusCode: 401,
+  level: 'error',
+  message: '🐱‍🏍 globalErrorHandler ~~ You are not authorized',
+  stack: 'Error: You are not authorized\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:50:15\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:14:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:10:12)\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:45:61\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'CoU',
+  timestamp: '2024-01-05T13:07:23.175Z'
+}
+{
+  service: 'user-service',
+  statusCode: 401,
+  level: 'error',
+  message: '🐱‍🏍 globalErrorHandler ~~ You are not authorized',
+  stack: 'Error: You are not authorized\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:50:15\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:14:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:10:12)\n' +
+    '    at C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\src\\app\\middlewares\\auth.ts:45:61\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'CoU',
+  timestamp: '2024-01-05T13:08:43.837Z'
+}

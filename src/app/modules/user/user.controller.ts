@@ -8,7 +8,6 @@ import { UserService } from './user.service';
 
 const createStudent: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    console.log(req.cookies, 'cookie');
     const { student, ...userData } = req.body;
     const result = await UserService.createStudent(student, userData);
 
@@ -21,17 +20,19 @@ const createStudent: RequestHandler = catchAsync(
   },
 );
 
-const createFaculty = catchAsync(async (req: Request, res: Response) => {
-  const { faculty, ...userData } = req.body;
-  const result = await UserService.createFaculty(faculty, userData);
+const createFaculy: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const { faculty, ...userData } = req.body;
+    const result = await UserService.createFaculty(faculty, userData);
 
-  sendResponse<IUser>(res, {
-    statusCode: httpStatus.OK,
-    success: true,
-    message: 'User faculty created successfully!',
-    data: result,
-  });
-});
+    sendResponse<IUser>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'user created successfully!',
+      data: result,
+    });
+  },
+);
 
 const createAdmin: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
@@ -46,8 +47,9 @@ const createAdmin: RequestHandler = catchAsync(
     });
   },
 );
+
 export const UserController = {
   createStudent,
-  createFaculty,
+  createFaculy,
   createAdmin,
 };

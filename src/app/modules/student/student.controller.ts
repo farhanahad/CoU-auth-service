@@ -1,6 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import { NextFunction, Request, Response } from 'express';
+import { Request, Response } from 'express';
 import httpStatus from 'http-status';
 import { paginationFields } from '../../../constants/pagination';
 import catchAsync from '../../../shared/catchAsync';
@@ -10,26 +8,23 @@ import { studentFilterableFields } from './student.constant';
 import { IStudent } from './student.interface';
 import { StudentService } from './student.service';
 
-const getAllStudents = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
-    const filters = pick(req.query, studentFilterableFields);
-    const paginationOptions = pick(req.query, paginationFields);
-    console.log(paginationOptions);
-    console.log(filters);
-    const result = await StudentService.getAllStudents(
-      filters,
-      paginationOptions,
-    );
+const getAllStudents = catchAsync(async (req: Request, res: Response) => {
+  const filters = pick(req.query, studentFilterableFields);
+  const paginationOptions = pick(req.query, paginationFields);
 
-    sendResponse<IStudent[]>(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'Student retrieved successfully!',
-      meta: result.meta,
-      data: result.data,
-    });
-  },
-);
+  const result = await StudentService.getAllStudents(
+    filters,
+    paginationOptions,
+  );
+
+  sendResponse<IStudent[]>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Students retrieved successfully !',
+    meta: result.meta,
+    data: result.data,
+  });
+});
 
 const getSingleStudent = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
@@ -57,7 +52,6 @@ const updateStudent = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
-
 const deleteStudent = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
 
