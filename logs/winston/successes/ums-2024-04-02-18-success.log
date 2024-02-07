@@ -3,12 +3,12 @@
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T06:06:18.416Z'
+  timestamp: '2024-02-04T12:20:50.748Z'
 }
 {
   message: 'Application  listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T06:06:18.481Z'
+  timestamp: '2024-02-04T12:20:50.761Z'
 }

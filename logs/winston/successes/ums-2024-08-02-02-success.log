@@ -3,40 +3,54 @@
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T13:11:27.660Z'
+  timestamp: '2024-02-07T20:04:57.020Z'
 }
 {
   message: 'Application  listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T13:11:27.722Z'
+  timestamp: '2024-02-07T20:04:57.048Z'
 }
 {
   message: '🛢   Database is connected successfully',
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T13:15:08.658Z'
+  timestamp: '2024-02-07T20:13:56.127Z'
 }
 {
   message: 'Application  listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T13:15:08.684Z'
+  timestamp: '2024-02-07T20:13:56.140Z'
 }
 {
   message: '🛢   Database is connected successfully',
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T13:16:44.613Z'
+  timestamp: '2024-02-07T20:15:57.520Z'
 }
 {
   message: 'Application  listening on port 5000',
   level: 'info',
   service: 'user-service',
   label: 'CoU',
-  timestamp: '2024-01-04T13:16:44.629Z'
+  timestamp: '2024-02-07T20:15:57.532Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2024-02-07T20:16:39.919Z'
+}
+{
+  message: 'Application  listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2024-02-07T20:16:39.945Z'
 }

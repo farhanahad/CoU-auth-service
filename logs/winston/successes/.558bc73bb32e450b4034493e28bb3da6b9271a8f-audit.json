@@ -6,94 +6,19 @@
     "auditLog": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\.558bc73bb32e450b4034493e28bb3da6b9271a8f-audit.json",
     "files": [
         {
-            "date": 1704345955391,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-01-11-success.log",
-            "hash": "7275b1b5e1d751a9b2a5707b943c016c5ce372326474b647473435bc3143b0ec"
+            "date": 1706531158906,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-29-01-18-success.log",
+            "hash": "021c19db4c80e713bcb75f0c4f92adc6360cbdaccbae161ca6d91a8daeee929d"
         },
         {
-            "date": 1704348374356,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-01-12-success.log",
-            "hash": "5fd93944674aa39fe50ffc67d7dde4e1d31bb946d783e2b2b60d337ad122783f"
+            "date": 1707049236377,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-02-18-success.log",
+            "hash": "71e3e233cff791343bf80ffa211c82403e5248aaf353da63603733b656052d60"
         },
         {
-            "date": 1704369751087,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-01-18-success.log",
-            "hash": "206f6833a937fbc2110ea1a427ce86bb5a31ed457c23fb3ece3b4a73d96f64cf"
-        },
-        {
-            "date": 1704373883743,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-01-19-success.log",
-            "hash": "b2597de426531f125d0fa5cb6baf215b950566a0b00f93c613810e1484a28ce3"
-        },
-        {
-            "date": 1704377640052,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-01-20-success.log",
-            "hash": "869c576754c37224dfa3fca1f63c42a06592b439f0c5f97b748cc693487e3b26"
-        },
-        {
-            "date": 1704381042861,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-01-21-success.log",
-            "hash": "a85df590cc880108f9f427a46ec0c4313e0440d45db405a94b94c4de4e0be31d"
-        },
-        {
-            "date": 1704384325711,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-04-01-22-success.log",
-            "hash": "4cf70a4a8881fb82c0f9f7b02162a36c968a7d8cdf9ed68424b3789fb2c9d0de"
-        },
-        {
-            "date": 1704391571007,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-00-success.log",
-            "hash": "9cef7e57d401e445e7c6c71baff07445384c75b2a8e6ad9428e5eaec802e770d"
-        },
-        {
-            "date": 1704395096498,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-01-success.log",
-            "hash": "a98fb76e52eab33ff4fe5e1099503fe0fffb5e1b2f825c15d171b571115854f4"
-        },
-        {
-            "date": 1704422162045,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-08-success.log",
-            "hash": "cae1dd690c77dc1b353e848d0e98a941b87839edd56efe1bf60f5eaa2b2bf9ee"
-        },
-        {
-            "date": 1704425261326,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-09-success.log",
-            "hash": "190af0d33144d2a61f43f1e8a1b008b6a10f35d7fa222c72da2b14c20778cd0c"
-        },
-        {
-            "date": 1704427568461,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-10-success.log",
-            "hash": "b588d70f8c605b9de921eeeff470b7427b99c9ae289172d293fa4ef5fd18dc69"
-        },
-        {
-            "date": 1704431585147,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-11-success.log",
-            "hash": "eddc223e18a7c30002679ef902d3560ca307bfb7f756d3316940c170518b5671"
-        },
-        {
-            "date": 1704434910113,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-12-success.log",
-            "hash": "96c131b3a756687d2dd7cafd0cd857bd6d872ff03008057ee8858900488fc62f"
-        },
-        {
-            "date": 1704451877138,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-16-success.log",
-            "hash": "ca786e900c3791756e4c64ccd0fc00d064b100088a186552b292de39c87843d3"
-        },
-        {
-            "date": 1704459989136,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-05-01-19-success.log",
-            "hash": "7e1b01b75bc57b5c856dfe7001f68fb3c8f55d182ed9f61ad3d0c6a131837f52"
-        },
-        {
-            "date": 1704510039124,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-06-01-09-success.log",
-            "hash": "8bed3f40bba88aa6b8338e1d4b825627a9ccbb268fa0ec3899f827d11c7ee169"
-        },
-        {
-            "date": 1704513977229,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-06-01-10-success.log",
-            "hash": "3cef4b7808cdeafee30a446dced7f354393b89c097f1198b02f21d45761f3a50"
+            "date": 1707219472492,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\successes\\ums-2024-06-02-17-success.log",
+            "hash": "9ed5fb97891f242aaa3b26c3e69781bd6cb75037aed56fad334122d0c7d78931"
         }
     ],
     "hashType": "sha256"
