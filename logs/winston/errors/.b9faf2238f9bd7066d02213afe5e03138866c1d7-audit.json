@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\8. Lecture-15\\logs\\winston\\errors\\.b9faf2238f9bd7066d02213afe5e03138866c1d7-audit.json",
-    "files": [
-        {
-            "date": 1707315061790,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-07-02-20-error.log",
-            "hash": "3cf84355f49a172af52339e689587551253e9322a159a10e6c9d95a83bfa80eb"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\8. Lecture-15\\logs\\winston\\errors\\.b9faf2238f9bd7066d02213afe5e03138866c1d7-audit.json",
+  "files": [
+    {
+      "date": 1707315061790,
+      "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-07-02-20-error.log",
+      "hash": "3cf84355f49a172af52339e689587551253e9322a159a10e6c9d95a83bfa80eb"
+    }
+  ],
+  "hashType": "sha256"
 }

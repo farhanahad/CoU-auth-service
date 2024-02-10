@@ -97,7 +97,7 @@ const changePassword = async (
 ): Promise<void> => {
   const { oldPassword, newPassword } = payload;
 
-  // checking is user exist
+  // // checking is user exist
   // const isUserExist = await User.isUserExist(user?.userId);
 
   //alternative way
@@ -138,6 +138,7 @@ const changePassword = async (
   // updating using save()
   isUserExist.save();
 };
+
 export const AuthService = {
   loginUser,
   refreshToken,

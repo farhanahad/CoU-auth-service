@@ -1,0 +1,7 @@
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2024-02-08T13:54:39.261Z'
+}

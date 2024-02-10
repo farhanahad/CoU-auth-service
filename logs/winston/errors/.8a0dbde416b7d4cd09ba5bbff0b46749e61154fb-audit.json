@@ -1,25 +1,25 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\.8a0dbde416b7d4cd09ba5bbff0b46749e61154fb-audit.json",
+  "files": [
+    {
+      "date": 1706531158953,
+      "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-29-01-18-error.log",
+      "hash": "ddcad4b906c098ed0b79fccb31a2c859d27df194110dcd08cfa920873f1bd4ef"
     },
-    "auditLog": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\.8a0dbde416b7d4cd09ba5bbff0b46749e61154fb-audit.json",
-    "files": [
-        {
-            "date": 1706531158953,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-29-01-18-error.log",
-            "hash": "ddcad4b906c098ed0b79fccb31a2c859d27df194110dcd08cfa920873f1bd4ef"
-        },
-        {
-            "date": 1707049236396,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-04-02-18-error.log",
-            "hash": "56ab3f1e2be29c26b3fefa636ca82eca91b47ca67cec229b40f54921360241bd"
-        },
-        {
-            "date": 1707219472514,
-            "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-06-02-17-error.log",
-            "hash": "1350d249c4b380557a5d679ae548b58458e0d8cd2510e3d68ecdab53889a11e5"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1707049236396,
+      "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-04-02-18-error.log",
+      "hash": "56ab3f1e2be29c26b3fefa636ca82eca91b47ca67cec229b40f54921360241bd"
+    },
+    {
+      "date": 1707219472514,
+      "name": "C:\\Users\\Admin\\Desktop\\CoU\\Information\\CoU-auth-service-info\\Code\\8. Lecture-15\\logs\\winston\\errors\\ums-2024-06-02-17-error.log",
+      "hash": "1350d249c4b380557a5d679ae548b58458e0d8cd2510e3d68ecdab53889a11e5"
+    }
+  ],
+  "hashType": "sha256"
 }

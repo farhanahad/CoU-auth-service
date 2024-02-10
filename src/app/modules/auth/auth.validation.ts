@@ -29,6 +29,7 @@ const changePasswordZodSchema = z.object({
     }),
   }),
 });
+
 export const AuthValidation = {
   loginZodSchema,
   refreshTokenZodSchema,
