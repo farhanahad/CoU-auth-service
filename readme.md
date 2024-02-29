@@ -1,4 +1,4 @@
-<h2>This is a university management related website. It's a backend part</h2>
+<h2>This is  university management related website. It's a backend part</h2>
 
 <h2>Others part of this project</h2>
 <h3>Core Service Link:https://github.com/farhanahad/CoU-core-service: </h3>
