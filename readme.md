@@ -1,3 +1,12 @@
+<h2>This is a university management related website. It's a backend part</h2>
+
+<h2>Others part of this project</h2>
+<h3>Auth Service Link: https://github.com/farhanahad/CoU-auth-service</h3>
+<h3>Core Service Link:https://github.com/farhanahad/CoU-core-service: </h3>
+<h3>API Gateway link:https://github.com/farhanahad/CoU-api-gateway</h3>
+<h3>Frontend Link: https://github.com/farhanahad/CoU-frontend</h3>
+
+<p>At first git clone & then command "yarn add", Then set .env file. just see the format .env.example.. Then run " yarn start"</p>
 <h2>Auth Login</h2>
 
 <h4>Post</h4>

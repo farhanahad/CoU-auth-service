@@ -64,6 +64,76 @@
             "date": 1707565299607,
             "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-10-02-17-success.log",
             "hash": "faf93b6370fcebe748b66a3afa9d70dd70cf6a22e07efea71301627618877ab1"
+        },
+        {
+            "date": 1707589748554,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-11-02-00-success.log",
+            "hash": "1b1bb494a48e49bd7a423c9d991580821c97b83168f2d81c4c5e81d8983b6d7b"
+        },
+        {
+            "date": 1707627953200,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-11-02-11-success.log",
+            "hash": "2082d28d0e3a3ec7a2fb303ab9859c7a449f7d6240e975607acf1fa7d9b62b72"
+        },
+        {
+            "date": 1707632956163,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-11-02-12-success.log",
+            "hash": "4c40c708d22e8efdbe6815ef1f9c3109bec86bfc296f91f14e42b913366e5502"
+        },
+        {
+            "date": 1707654773706,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-11-02-18-success.log",
+            "hash": "0b7c4b52d37e8f6bc24b6416a2bd15dbce325e84469ddca98eb1e76f4d4ac293"
+        },
+        {
+            "date": 1707657392879,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-11-02-19-success.log",
+            "hash": "d30b2c2df3c0813fa67e3bd270b2d4b0472714f3922b1101a730a2a2e89527e0"
+        },
+        {
+            "date": 1707671992349,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-11-02-23-success.log",
+            "hash": "858a7da189cd1c62d0f99cf4ea3c5ea6669a13124b09efb88447fa11d91a7bb4"
+        },
+        {
+            "date": 1707676945521,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-12-02-00-success.log",
+            "hash": "31b89541a476a68a1fc7099fdd44da09cd87903bfcab7cb8dadce4b321434963"
+        },
+        {
+            "date": 1707680581457,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-12-02-01-success.log",
+            "hash": "3660088f91301bf9f58663c0ce1ae0d41a9a1e914cbbc3b60a77c02cbebfc5e5"
+        },
+        {
+            "date": 1707681856233,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-12-02-02-success.log",
+            "hash": "5e81567b8460ea026fd0cf6e77a72e8227626cc2ede56ae177eca6f4f5b89fc9"
+        },
+        {
+            "date": 1707736181632,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-12-02-17-success.log",
+            "hash": "0e953f60b4e781a7dbb22e566618077f9e7ae75f81075ddcece8335674fac3d4"
+        },
+        {
+            "date": 1707743829013,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-12-02-19-success.log",
+            "hash": "7419ea6868c6f81a5f4fbff832ab7bc9f0e6cc687835f1fb1b168b5ee1889ad7"
+        },
+        {
+            "date": 1707747026445,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-12-02-20-success.log",
+            "hash": "b692976ed44610cc515c13e8216b57805cf770d3a4ae3a7de1f0806a7feeb0ec"
+        },
+        {
+            "date": 1707759997118,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-12-02-23-success.log",
+            "hash": "e289db69081fb9bb5ecc535954bba5ec0d49f3a645b883bf0d1f1a308b42dd1b"
+        },
+        {
+            "date": 1707765996935,
+            "name": "C:\\Users\\Admin\\Desktop\\CoU\\university-management-auth-service\\university-management-auth-service\\logs\\winston\\successes\\ums-2024-13-02-01-success.log",
+            "hash": "3dff7433ba387677ece9b26b0cbbb6bb05cfe24c880d7092e844bf038d9bb90a"
         }
     ],
     "hashType": "sha256"

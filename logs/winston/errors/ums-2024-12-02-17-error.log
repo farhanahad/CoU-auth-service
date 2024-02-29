@@ -1,0 +1,11 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Faculty of Law' },
+  level: 'error',
+  service: 'user-service',
+  label: 'CoU',
+  timestamp: '2024-02-12T11:37:21.061Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

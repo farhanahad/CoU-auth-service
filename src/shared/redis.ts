@@ -1,15 +1,16 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { SetOptions, createClient } from 'redis';
-
 import config from '../config';
 
 const redisClient = createClient({
   url: config.redis.url,
 });
+
 const redisPubClient = createClient({
   url: config.redis.url,
 });
+
 const redisSubClient = createClient({
   url: config.redis.url,
 });
@@ -30,6 +31,7 @@ const set = async (
 ): Promise<void> => {
   await redisClient.set(key, value, options);
 };
+
 const get = async (key: string): Promise<string | null> => {
   return await redisClient.get(key);
 };
@@ -37,6 +39,7 @@ const get = async (key: string): Promise<string | null> => {
 const del = async (key: string): Promise<void> => {
   await redisClient.del(key);
 };
+
 const setAccessToken = async (userId: string, token: string): Promise<void> => {
   const key = `access-token:${userId}`;
   await redisClient.set(key, token, { EX: Number(config.redis.expires_in) });
@@ -57,6 +60,7 @@ const disconnect = async (): Promise<void> => {
   await redisPubClient.quit();
   await redisSubClient.quit();
 };
+
 export const RedisClient = {
   connect,
   set,
